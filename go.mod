@@ -10,7 +10,7 @@ replace (
 require (
 	github.com/envoyproxy/go-control-plane/envoy v1.32.2
 	github.com/envoyproxy/go-control-plane/ratelimit v0.1.0
-	github.com/google/go-cmp v0.6.0
+	github.com/google/go-cmp v0.7.0
 	github.com/stretchr/testify v1.10.0
 	go.uber.org/goleak v1.3.0
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240814211410-ddb44dafa142
