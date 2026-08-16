@@ -1,6 +1,6 @@
 module github.com/envoyproxy/go-control-plane/xdsmatcher
 
-go 1.22.8
+go 1.23
 
 replace github.com/envoyproxy/go-control-plane/envoy => ../envoy
 
@@ -8,7 +8,7 @@ require (
 	github.com/cncf/xds/go v0.0.0-20240723142845-024c85f92f20
 	github.com/envoyproxy/go-control-plane/envoy v1.32.2
 	github.com/stretchr/testify v1.10.0
-	google.golang.org/protobuf v1.35.2
+	google.golang.org/protobuf v1.36.12
 	gopkg.in/yaml.v2 v2.4.0
 )
 
@@ -16,7 +16,6 @@ require (
 	cel.dev/expr v0.16.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/envoyproxy/protoc-gen-validate v1.1.0 // indirect
-	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/kr/pretty v0.3.1 // indirect
 	github.com/planetscale/vtprotobuf v0.6.1-0.20240319094008-0393e58bdf10 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
